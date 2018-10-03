@@ -1,0 +1,205 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:larger;
+    background-image: url("indexbg.jpg");                /*the order matters, if you put color before image, the color will come first*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    background-color: #282828;
+    color: #e2e2e2;
+}
+
+h1 {                                     /*you can also do multiple types of headings at the same time with a comma, ex.) "h1, h3" */    
+    font-family: 'Oswald', sans-serif;
+}
+
+#nav {
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #161616;   /*to make transparent, "transparent" is a color option*/
+}
+
+   /*the ul is the whole bar, the li is the things on the bar*/
+   /*to change the font inside of the bar, do <a>*/
+   
+#nav li {
+    float: left;
+}
+
+#nav li a {
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    color: white;
+}
+
+#nav li a:hover {
+  color:crimson;
+}
+
+#content, #Acontent {
+    border-style: solid;
+    border-width: 4px;
+    border-color: #cb00ff;
+    margin-top: 20px;
+    width: 68%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: rgba(25,25,25,0.85) /*for transparency, the last number is from 0 - 1  (pick a decimal) determines how transparent*/
+}
+
+table {
+    margin: auto;
+}
+
+#Acontent ul, #Acontent ol {
+    width: 25%;
+    margin: auto;
+}
+
+#homehd {
+    font-family: 'Oswald', sans-serif;
+    font-size: 150px;
+    color: white;
+    text-align: center;
+}
+
+#resumehd {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 35px;
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#resumebold {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+#resumemeat {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: larger;
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#resumelink {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: larger;
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#resumeline {
+    width: 90%;
+}
+
+#resumecenter {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color: white;
+    text-align: Center;
+    font-weight: bold;
+}
+
+#resumeclass {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: larger;
+    color: white;
+    text-align: left;
+    padding-left: 23px;        /*remember, margin is -13 and padding left is 23 because when you negative the margin, you do on all sides*/
+    margin: -13px;
+}
+
+#content #resumeul {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: larger;
+    color: white;
+    text-align: left;
+    margin-right: auto;
+}
+
+#aboutline {
+    width: 28%;
+}
+
+#aboutline2 {
+    width: 28%;
+}
+
+#resumeital {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    padding-left: 23px;
+    font-style: italic;
+    margin: -13px;
+}
+
+#resumeital2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    padding-left: 0px;
+    font-style: italic;
+    margin: 10px;
+}
+
+#homehd2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin: -95px;
+    padding-left: 10px;
+}
+
+#homesm {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    color: white;
+    text-align: left;
+    margin: -95px;
+    padding-left: 500px;
+    padding-top: 125px;
+}
+
+#homesm1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    color: white;
+    text-align: left;
+    margin: -95px;
+    padding-left: 500px;
+    padding-top: 125px;
+}
+
+#homesm2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    color: white;
+    text-align: left;
+    margin: -95px;
+    padding-left: 500px;
+    padding-top: 125px;
+}
+
+#aboutimg {
+    border-width: 5px;
+    border-color: white;
+}
